@@ -1,0 +1,146 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.witf.io/wp-content/uploads/2020/11/iStock-1159238834-1628x1080.jpg");
+}
+.common{
+    border-radius: 50%;
+    position: absolute;
+}
+    @keyframes Rotate {
+        from{}
+        to{ transform:rotate(360deg); }
+       
+    }
+.orbitCommon{
+    border:1px dashed gray;
+    animation-name: Rotate;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    position: absolute;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+.Shine1{
+    height: 20px;
+    width: 20px;
+    background:linear-gradient(to bottom right,yellow,white);
+    animation-name: S1;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+}
+.Shine2{
+    height: 40px;
+    width: 40px;
+    background:linear-gradient(to top left,yellow 30%,orange 60%);
+    animation-name: S2;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in;
+}
+.theSun{
+    height:70px;
+    width: 70px;}
+
+@keyframes S1 {
+    from{}
+    to{ transform:scale(5)}
+}
+@keyframes S2 {
+    from{}
+    to{ transform:scale(2.5)}
+}
+.mOrbit{
+    height:160px;
+    width:160px;
+    animation-duration: 2.89016s;
+}
+.Mercury{
+    height:30px;
+    width:30px;
+    bottom:20px;
+}
+.vOrbit{
+    height:240px;
+    width: 240px;
+    animation-duration: 7.38237s;
+
+}
+.Venus{
+    height: 40px;
+    width: 40px;
+    bottom:35px;
+    left:200px;
+
+}
+.eOrbit{
+    height:340px;
+    width:340px;
+    animation-duration: 12.00021s;
+}
+.Earth{
+    height:50px;
+    width:50px;
+    top:55px;
+}
+.msOrbit{
+    height:420px;
+    width:420px;
+    animation-duration: 22.57017s;
+}
+.Mars{
+    height:30px;
+    width:30px;
+    top:300px;
+    left:15px;
+}
+.jOrbit{
+    height:510px;
+    width:510px;
+    animation-duration: 142.35138s;
+}
+.Jupiter{
+    height: 70px;
+    width: 70px;
+    left:90px;
+}
+.sOrbit{
+    height:640px;
+    width:640px;
+    animation-duration: 353.36998s;
+}
+.Saturn{
+    height:60px;
+    width: 60px;
+    top:430px;
+    left:580px;
+}
+.uOrbit{
+    height:770px;
+    width: 770px;
+    animation-duration: 1008.20215s;
+}
+.Uranus{
+    height:75px;
+    width: 75px;
+    left:560px;
+    top:28px;
+}
+.nOrbit{
+    height:870px;
+    width:870px;
+    animation-duration: 1977.49584s;
+}
+.Neptune{
+    height:30px;
+    width: 30px;
+    top:310px;
+}
